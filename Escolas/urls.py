@@ -19,5 +19,7 @@ from Escolasapp.views import index,Escolas
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index/', index),
-path('Escolas/', Escolas),
+    path('Escolas/', Escolas),
+    path('criar_Escolas/', criar_Escolas),
+
 ]
